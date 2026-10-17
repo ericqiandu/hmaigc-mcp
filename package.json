@@ -1,0 +1,11 @@
+{
+  "name": "hmaigc-mcp-distribution",
+  "version": "0.1.0-rc.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "validate": "node scripts/validate-package.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

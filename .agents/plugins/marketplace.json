@@ -1,0 +1,13 @@
+{
+  "name": "hmaigc",
+  "interface": { "displayName": "HMAIGC 弘梦" },
+  "plugins": [
+    {
+      "name": "hmaigc",
+      "version": "0.1.0-rc.1",
+      "source": { "source": "local", "path": "./plugins/hmaigc" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Creativity"
+    }
+  ]
+}

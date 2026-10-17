@@ -1,0 +1,30 @@
+{
+  "name": "hmaigc",
+  "version": "0.1.0-rc.1",
+  "description": "在授权的弘梦画布中整理创作内容、查询模型与报价，并申请图片或视频生成。",
+  "author": { "name": "杭州弘梦人工智能科技有限公司", "url": "https://hm.kunagent.com" },
+  "homepage": "https://hm.kunagent.com/connect",
+  "repository": "https://github.com/ericqiandu/hmaigc-mcp",
+  "keywords": ["hmaigc", "canvas", "image", "video"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "HMAIGC 弘梦",
+    "shortDescription": "让 Agent 在弘梦画布中创作图片与视频",
+    "longDescription": "连接弘梦账号，读取和整理明确授权的画布，查询可用模型与预计积分，申请图片或视频生成。每次付费生成均由用户在弘梦网页单独批准。",
+    "developerName": "杭州弘梦人工智能科技有限公司",
+    "category": "Creativity",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "websiteURL": "https://hm.kunagent.com",
+    "privacyPolicyURL": "https://hm.kunagent.com/privacy",
+    "termsOfServiceURL": "https://hm.kunagent.com/terms",
+    "defaultPrompt": [
+      "查看我已授权的弘梦画布，帮我整理创作内容。",
+      "为这个画布中的图片节点选择可用模型，先告诉我预计积分。",
+      "为这个视频节点申请生成，并给我打开网页审批的链接。"
+    ],
+    "brandColor": "#09e1ed",
+    "composerIcon": "./assets/mark.png",
+    "logo": "./assets/logo.png"
+  }
+}

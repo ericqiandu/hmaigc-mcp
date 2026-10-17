@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "hmaigc": {
+      "type": "http",
+      "url": "https://hm.kunagent.com/mcp",
+      "oauth_resource": "https://hm.kunagent.com/mcp"
+    }
+  }
+}
